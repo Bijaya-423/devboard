@@ -8,7 +8,7 @@ sudo useradd -m $username
 
 echo "User Added Through Prompt"
 
-echo "The characters in $0 $1 $2" #this is the arguments at the time of run the bash script in shell you enter ./create_user.sh hello devops cloud
+echo "The characters in $0 $1 $2" #this is the arguments at the time of run the bash script in shell you enter ./create_user.sh hello devops cloud.
 
 
 

@@ -21,13 +21,6 @@ sudo deluser  "Bijaya"
 
 
 
-sudo deluser "Hima"
 sudo deluser "Aws"
-sudo deluser "Rajendra"
-sudo deluser "manoj"
-sudo deluser "dev"
-sudo deluser "hima"
-sudo deluser "iyer"
-sudo deluser "tappi"
-sudo deluser "tappu"
+
 
