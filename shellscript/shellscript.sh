@@ -10,6 +10,8 @@ echo "Linux, Git/GitHub, Networking"
 
 
 
+cloud="AWS, Azure, GCP"
+echo "cloud platforms name $cloud"
 
 
 
