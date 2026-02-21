@@ -23,3 +23,5 @@ echo "The characters in $0 $1 $2" #this is the arguments at the time of run the 
 sudo groupadd $1    # i want to add the group through the arguments 
 echo "The characters in $0 $1"
 
+
+
