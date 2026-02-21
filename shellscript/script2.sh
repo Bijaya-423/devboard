@@ -33,14 +33,6 @@ read username
 echo "You entered $username"
 
 
-
-
-
-
-
-
-
-
 read -p "What is DevOps: " Devops
 echo "Hello $Devops"
 
