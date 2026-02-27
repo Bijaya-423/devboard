@@ -14,7 +14,7 @@ cloud="AWS, Azure, GCP"
 echo "cloud platforms name $cloud"
 
 
-
+echo "============================"
 
 
 

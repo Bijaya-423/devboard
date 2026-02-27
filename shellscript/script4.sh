@@ -2,15 +2,15 @@
 
 while true
 do
-    echo "============================"
+    echo "=================="
     echo "      USER MANAGEMENT       "
-    echo "============================"
+    echo "==================
     echo "1. Add User"
     echo "2. Delete User"
     echo "3. Check User"
     echo "4. List Normal Users"
     echo "5. Exit"
-    echo "============================"
+    echo "=================="
 
     read -p "Enter your choice: " choice
 
