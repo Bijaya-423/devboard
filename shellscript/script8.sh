@@ -16,3 +16,4 @@ myfunc(){
 	echo $city
 }
 
+echo

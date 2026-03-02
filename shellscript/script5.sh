@@ -29,6 +29,8 @@ else
     echo "File hellogcp.txt does not exist."
 fi
 
+echo "All files have been checked."
+
 
 
 

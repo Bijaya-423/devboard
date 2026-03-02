@@ -17,7 +17,7 @@ echo "cloud platforms name $cloud"
 echo "============================"
 
 
-
+echo
 
 
 
