@@ -37,7 +37,7 @@ read -p "What is DevOps: " Devops
 echo "Hello $Devops"
 
 
-
+echo
 
 
 

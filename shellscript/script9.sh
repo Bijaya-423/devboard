@@ -22,5 +22,5 @@ echo "user created - $1, group created $2"
 
 
 
-
+echo
 echo

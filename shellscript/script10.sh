@@ -18,4 +18,4 @@ echo "The argument passed through the arg- $1, $2"
 echo
 
 
-
+echo
