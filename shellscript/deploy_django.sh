@@ -55,3 +55,4 @@ deploy
 
 echo "*********** DEPLOYMENT DONE ************"
 
+echo
