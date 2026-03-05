@@ -54,5 +54,3 @@ fi
 deploy
 
 echo "*********** DEPLOYMENT DONE ************"
-
-echo
