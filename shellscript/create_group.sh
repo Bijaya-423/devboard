@@ -19,7 +19,7 @@ echo "you create the user through args $2"
 
 sudo deluser  "Bijaya"
 
-
+echo
 
 sudo deluser "Aws"
 
