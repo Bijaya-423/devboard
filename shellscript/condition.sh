@@ -9,7 +9,7 @@ statement
 
 disclaimer
 
-
+echo
 read -p "enter the course: " course
 read -p "enter the azure %: " cloud
 
