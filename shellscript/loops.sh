@@ -10,7 +10,7 @@ do
 #	echo "demo$i folder created."
 
 
-
+echo
 <<comment
 	if [[ i=$i ]]
 	then
