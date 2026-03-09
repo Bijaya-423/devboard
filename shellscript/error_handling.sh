@@ -12,8 +12,6 @@ fi
 echo "THis should not work because the code is interrupted."
 
 
-echo
-
 
 
 
