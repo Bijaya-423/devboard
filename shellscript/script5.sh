@@ -28,7 +28,7 @@ if [ -f "hellogcp.txt" ]; then
 else
     echo "File hellogcp.txt does not exist."
 fi
-echo
+
 echo "All files have been checked."
 
 
