@@ -10,7 +10,6 @@ if ! create_directory; then
 fi
 
 echo "THis should not work because the code is interrupted."
-echi
 
 
 
