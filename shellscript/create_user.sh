@@ -12,10 +12,6 @@ echo "The characters in $0 $1 $2" #this is the arguments at the time of run the 
 
 
 
-
-
-
-
 #read -p "Enter the group: " $1
 
 #echo "You Enter the group name through args $1"
