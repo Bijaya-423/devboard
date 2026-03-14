@@ -32,4 +32,3 @@ rm -r day*
 
 
 echo
-
