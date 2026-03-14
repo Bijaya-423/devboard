@@ -15,5 +15,3 @@ myfunc(){
 	local city="Delhi"
 	echo $city
 }
-
-echo
