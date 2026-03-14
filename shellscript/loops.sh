@@ -30,26 +30,3 @@ comment
 	fi
 done
 
-
-
-
-
-echo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
