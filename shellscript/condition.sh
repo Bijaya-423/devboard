@@ -25,7 +25,7 @@ else
 	echo "not devops course"
 
 fi
-
+echo
 
 
 
