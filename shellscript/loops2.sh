@@ -4,7 +4,7 @@ read -p "Enter How many folder you have to create:-" folder
 
 echo
 
-
+echo
 for ((i=1; i<=folder; i++))
 do
     if [ -d "demo$i" ]
