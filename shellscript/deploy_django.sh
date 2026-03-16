@@ -5,7 +5,7 @@
 
 Deploy a django app
 and handle the code for errors
-
+echo
 task
 
 code_clone(){
