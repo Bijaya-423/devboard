@@ -3,7 +3,7 @@
 read -p "Enter User Name: " username
 
 echo "You Entered $username"
-
+echo
 sudo useradd -m $username
 
 echo "User Added Through Prompt"
