@@ -1,1 +1,2 @@
 print("Hello world from Docker for DevOps!")
+cls
