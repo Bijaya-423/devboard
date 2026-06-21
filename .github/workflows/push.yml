@@ -1,4 +1,4 @@
-#Goal: Build the image for devboard frontend and push to docker hub\
+#Goal: Build the image for devboard frontend and push to docker hub after linting the code
 name: Build Push
 
 on: 
@@ -6,7 +6,30 @@ on:
     branches: [master]
 
 jobs:
+  code-lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v7
+    
+      # - name: Check code syntax
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm' # Automates caching for node_modules to speed up runs
+
+      - name: Install Dependencies
+        run: npm Build Push
+
+      - name: Run Linters
+        uses: wearerequired/lint-action@v2
+        with:
+          eslint: true
+          prettier: true
+        
   build-and-push:
+    needs: [code-lint]
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
