@@ -1,5 +1,5 @@
 #Goal: Build the image for devboard frontend and push to docker hub\
-name: Build & Push to Docker Hub\
+name: Build Push
 
 on: 
   push:
