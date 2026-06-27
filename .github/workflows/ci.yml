@@ -1,12 +1,12 @@
 #Goal - i have Lint, Build, Test the code for Frontend & Backend
-#Then Push the images to Docker hub 
+#Then Push the images to Docker hub
 
 name: CI
 
 on:
-    push:
-        branches: [advanced]
-      
+  push:
+    branches: [advanced]
+
 jobs:
   frontend:
     runs-on: ubuntu-latest
@@ -17,23 +17,22 @@ jobs:
       - name: Setup NodeJs
         uses: actions/setup-node@v6
         with:
-          node-version: '20'
+          node-version: "20"
           cache: npm
-          cache-dependency-path: frontend\package-lock.json
+          cache-dependency-path: frontend/package-lock.json
 
       - name: Install npm Packages
         run: npm install
 
       - name: Run Linter
         run: npm run lint
-      
+
       - name: Run Tests
         run: npm run test
 
-      
   # backend:
   #   steps:
   #     - Lint
   #     - Test
   #     - build
-  #     - Push 
+  #     - Push
