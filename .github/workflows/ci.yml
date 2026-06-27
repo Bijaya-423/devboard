@@ -32,6 +32,20 @@ jobs:
       - name: Run Tests
         run: npm run test
         working-directory: frontend
+      
+      - name: Docker Setup [Login]
+        uses: docker/login-actions@v4
+        with: 
+          username: ${{ vars.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+      
+      - name: Docker Build and Push
+        uses: docker/build-push-action@v7
+        with:
+          context: ./frontend/Dockerfile
+          push: true
+          tags: ${{ vars.DOCKERHUB_USERNAME }}/devboard-frontend:latest
+
 
   # backend:
   #   steps:
