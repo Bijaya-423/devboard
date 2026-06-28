@@ -45,7 +45,7 @@ jobs:
       - name: Docker Build and Push 
         uses: docker/build-push-action@v7
         with:
-          context: ./frontend/Dockerfile
+          context: ./frontend
           push: true
           tags: ${{ vars.DOCKERHUB_USERNAME }}/devboard-frontend:latest
 
