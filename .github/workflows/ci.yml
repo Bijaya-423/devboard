@@ -12,10 +12,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Code
-        uses: action/checkout@v7
+        uses: actions/checkout@v7
 
       - name: Setup NodeJs
-        uses: action/setup-node@v6
+        uses: actions/setup-node@v6
         with:
           node-version: "20"
           cache: npm
@@ -27,7 +27,7 @@ jobs:
       - name: Run Linter
         run: npm run lint
       
-        
+
       - name: Run Tests
         run: npm run test
       # - name: Install npm Packages
