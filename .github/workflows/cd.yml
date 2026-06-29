@@ -15,10 +15,11 @@ on:
       workflows: ['CI']
       types: [completed]
       branches:
-        - 'advanced'
+        - advanced
 
 jobs:
     deploy:
+      if: github.event.workflow_run.conclusion == 'success'
       runs-on: self-hosted
       steps:
         - name: Code Checkout
