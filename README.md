@@ -274,6 +274,3 @@ To allow the CI pipeline to build and push images to Docker Hub:
 3. Under the **Secrets** tab, add:
    - `DOCKERHUB_TOKEN`: A Personal Access Token (PAT) generated from Docker Hub.
 
-
-
-
